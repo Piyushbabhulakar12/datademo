@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Menu() {
   return (
     <div>
@@ -15,22 +14,22 @@ function Menu() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto">
         <li class="nav-item">
-          <Link class="nav-link navbar_text" to="/">Home</Link>
+          <a class="nav-link navbar_text" to="/">Home</a>
         </li>
         <li class="nav-item">
-         <Link class="nav-link navbar_text" to="/aboutus">About Us</Link>
+         <a class="nav-link navbar_text" to="/aboutus">About Us</a>
         </li>
         <li class="nav-item">
-          <Link class="nav-link navbar_text" href="#">Team</Link>
+          <a class="nav-link navbar_text" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <Link class="nav-link navbar_text" href="#">Work</Link>
+          <a class="nav-link navbar_text" href="#">Work</a>
         </li>
         <li class="nav-item">
-          <Link class="nav-link navbar_text" href="#">Picture</Link>
+          <a class="nav-link navbar_text" href="#">Picture</a>
         </li>
          <li class="nav-item">
-           <Link class="nav-link navbar_text" to="/contact">Contact</Link>
+           <a class="nav-link navbar_text" to="/contact">Contact</a>
         </li>
       </ul>
     <button class="btn menu_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa fa-bars" aria-hidden="true"></i></button>
@@ -62,7 +61,7 @@ function Menu() {
                    </div>
                    <div class="col-md-4">
                        
-                      <Link to="/cinmatic-video"><button data-bs-dismiss="offcanvas" class="btn btn-dark float-end rounded-pill btn_spas shadow-lg"><i class="fa fa-angle-right" aria-hidden="true"></i></button></Link>
+                      <a to="/cinmatic-video"><button data-bs-dismiss="offcanvas" class="btn btn-dark float-end rounded-pill btn_spas shadow-lg"><i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
 
                    </div>
                </div>
